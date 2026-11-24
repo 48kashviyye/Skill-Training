@@ -122,7 +122,31 @@
 #         out+=i
 # print(out)
 
-s=input("enter: ")
-for i in s:
-    rev=i+rev
-print(rev)
+# s=input("enter: ")
+# for i in s:
+#     rev=i+rev
+# print(rev)
+
+# for i in range(1, 6):
+#     for j in range(1, 6):
+#         if i==j:
+#             print('1', end=' ')
+#         else:
+#             print('@', end=' ')
+#     print()
+
+# for i in range(1, 6):
+#     for j in range(1, 6):
+#         if i>=j:
+#             print('1', end=' ')
+#         else:
+#             print('@', end=' ')
+#     print()
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        if i<=j:
+            print('1', end=' ')
+        else:
+            print('@', end=' ')
+    print()
